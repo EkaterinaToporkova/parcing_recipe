@@ -16,5 +16,5 @@ _________
 
 **Итоговый фрейм выглядит так:**
 
-![frame](https://github.com/EkaterinaToporkova/parcing_recipe/blob/master/%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C.jpg)
+![frame](https://github.com/EkaterinaToporkova/parcing_recipe/blob/master/%D1%84%D1%80%D0%B5%D0%B9%D0%BC.jpg)
 
