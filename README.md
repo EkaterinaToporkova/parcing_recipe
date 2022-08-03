@@ -1,7 +1,7 @@
 # Парсер сайта с рецептами
 _________
 
-Парсер выводит в файл Excel список категорий блюд и ссылки на них.
+Парсер выводит в файл Excel список категорий блюд? cами блюда и ссылки на них.
 
 **В ходе работы использовались:**
 - модуль *request*
@@ -12,8 +12,9 @@ _________
 
 **Итоговая таблица Excel выглядит так:**
 
-![Excel](https://github.com/EkaterinaToporkova/parcing_recipe/blob/master/%D1%84%D0%B0%D0%B9%D0%BB.jpg)
+![Excel](https://github.com/EkaterinaToporkova/parcing_recipe/blob/master/excel.jpg)
 
 **Итоговый фрейм выглядит так:**
 
 ![frame](https://github.com/EkaterinaToporkova/parcing_recipe/blob/master/%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C.jpg)
+
