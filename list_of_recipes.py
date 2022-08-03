@@ -100,3 +100,4 @@ sauces_link = []
 for sa in sauces_eat_list:
     sauces_link.append('https://www.russianfood.com/' + sa['href'])
     sauces_list.append(sa.text)
+           
