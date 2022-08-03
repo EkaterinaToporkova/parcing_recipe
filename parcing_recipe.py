@@ -10,7 +10,7 @@ import list_of_recipes as lor
 
 
 # таблица для записи данных
-table = pd.DataFrame({'Категория блюд': lor.category_list, 'Перечень блюд': '1', 'Ссылка на категорию': '1', 'Ингредиенты': ''})
+table = pd.DataFrame({'Категория блюд': lor.category_list, 'Перечень блюд': '1', 'Ссылка на категорию': '1'})
 table._set_value(0, 'Перечень блюд', ', '.join(lor.first_list))  # новый столбец 'Перечень блюд' со значениями на каждой строке
 table._set_value(0, 'Ссылка на категорию', ', '.join(lor.first_link))  # перечень ссылок на первый блюда
 table._set_value(0, 'Ингредиенты', ', '.join(lor.first_link))  # перечень ссылок на первый блюда
@@ -44,9 +44,8 @@ splitted_link = table['Ссылка на категорию'].str.split(',\s*')
 # новая таблица для записи обновленных данных
 new_table = pd.DataFrame({'Категория блюд': np.repeat(table['Категория блюд'], l),
                           'Перечень блюд': np.concatenate(splitted.values),
-                          'Ссылка на категорию': np.concatenate(splitted_link.values),
-                          'Ингредиенты': np.repeat(table['Ингредиенты'], l)},
-                         columns=['Категория блюд', 'Перечень блюд', 'Ссылка на категорию', 'Ингредиенты'])
+                          'Ссылка на категорию': np.concatenate(splitted_link.values)},
+                         columns=['Категория блюд', 'Перечень блюд', 'Ссылка на категорию'])
 
 if __name__ == '__main__':
     print(new_table)
